@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(53, 50, 50);
+}
+
+form{
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+input{
+  color: blue;
+}
